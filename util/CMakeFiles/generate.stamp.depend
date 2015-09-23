@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Dev/HWang/2012/Code/util/CMakeLists.txt
+C:/Dev/HWang/2012/Code/cmake/FindFFmpeg.cmake
+C:/Dev/HWang/2012/Code/util/config.h.in

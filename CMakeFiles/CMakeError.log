@@ -1,0 +1,437 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine バージョン 4.6.81.0
+[Microsoft .NET Framework、バージョン 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2015/09/15 12:19:58 にビルドを開始しました。
+ノード 1 上のプロジェクト "C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdC\CompilerIdC.vcxproj" (既定のターゲット)。
+C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdC\CompilerIdC.vcxproj(17,3): error MSB4019: インポートされたプロジェクト "C:\Microsoft.Cpp.Default.props" が見つかりませんでした。<Import> 宣言のパスが正しいかどうか、およびファイルがディスクに存在しているかどうかを確認してください。
+プロジェクト "C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdC\CompilerIdC.vcxproj" (既定のターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+"C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdC\CompilerIdC.vcxproj" (既定のターゲット) (1) ->
+  C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdC\CompilerIdC.vcxproj(17,3): error MSB4019: インポートされたプロジェクト "C:\Microsoft.Cpp.Default.props" が見つかりませんでした。<Import> 宣言のパスが正しいかどうか、およびファイルがディスクに存在しているかどうかを確認してください。
+
+    0 個の警告
+    1 エラー
+
+経過時間 00:00:00.07
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine バージョン 4.6.81.0
+[Microsoft .NET Framework、バージョン 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+2015/09/15 12:19:58 にビルドを開始しました。
+ノード 1 上のプロジェクト "C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (既定のターゲット)。
+C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdCXX\CompilerIdCXX.vcxproj(17,3): error MSB4019: インポートされたプロジェクト "C:\Microsoft.Cpp.Default.props" が見つかりませんでした。<Import> 宣言のパスが正しいかどうか、およびファイルがディスクに存在しているかどうかを確認してください。
+プロジェクト "C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (既定のターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+"C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (既定のターゲット) (1) ->
+  C:\Dev\HWang\2012VS2008\CMakeFiles\3.2.3\CompilerIdCXX\CompilerIdCXX.vcxproj(17,3): error MSB4019: インポートされたプロジェクト "C:\Microsoft.Cpp.Default.props" が見つかりませんでした。<Import> 宣言のパスが正しいかどうか、およびファイルがディスクに存在しているかどうかを確認してください。
+
+    0 個の警告
+    1 エラー
+
+経過時間 00:00:00.01
+
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec1777769083"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1777769083, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /Oi /Ot /I "C:\Qt\4.8.6\include" /D "NDEBUG" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /arch:SSE2 /Fo"cmTryCompileExec1777769083.dir\Debug\\" /Fd"cmTryCompileExec1777769083.dir\Debug\vc90.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_X11' : undeclared identifier
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec1777769083.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec1777769083 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec3949067173"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3949067173, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /Oi /Ot /I "C:\Qt\4.8.6\include" /D "NDEBUG" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /arch:SSE2 /Fo"cmTryCompileExec3949067173.dir\Debug\\" /Fd"cmTryCompileExec3949067173.dir\Debug\vc90.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_QWS' : undeclared identifier
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec3949067173.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec3949067173 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec1790225452"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1790225452, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /Oi /Ot /I "C:\Qt\4.8.6\include" /D "NDEBUG" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /arch:SSE2 /Fo"cmTryCompileExec1790225452.dir\Debug\\" /Fd"cmTryCompileExec1790225452.dir\Debug\vc90.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_MAC' : undeclared identifier
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec1790225452.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec1790225452 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec592011901"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec592011901, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec592011901.dir\Debug\\" /Fd"cmTryCompileExec592011901.dir\Debug\vc90.pdb" /c /Zi /TC .\CheckIncludeFiles.c
+1>CheckIncludeFiles.c
+1>.\CheckIncludeFiles.c(2) : fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec592011901.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec592011901 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec1514913880"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1514913880, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec1514913880.dir\Debug\\" /Fd"cmTryCompileExec1514913880.dir\Debug\vc90.pdb" /c /Zi /TC .\CheckIncludeFiles.c
+1>CheckIncludeFiles.c
+1>.\CheckIncludeFiles.c(2) : fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec1514913880.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec1514913880 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files inttypes.h exist failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec3758411671"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3758411671, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec3758411671.dir\Debug\\" /Fd"cmTryCompileExec3758411671.dir\Debug\vc90.pdb" /c /Zi /TC .\CheckIncludeFiles.c
+1>CheckIncludeFiles.c
+1>.\CheckIncludeFiles.c(2) : fatal error C1083: Cannot open include file: 'inttypes.h': No such file or directory
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec3758411671.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec3758411671 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <inttypes.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdint.h exist failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec4087616843"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4087616843, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec4087616843.dir\Debug\\" /Fd"cmTryCompileExec4087616843.dir\Debug\vc90.pdb" /c /Zi /TC .\CheckIncludeFiles.c
+1>CheckIncludeFiles.c
+1>.\CheckIncludeFiles.c(2) : fatal error C1083: Cannot open include file: 'stdint.h': No such file or directory
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec4087616843.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec4087616843 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <stdint.h>
+
+
+int main(void){return 0;}
+
+Determining if the function isinf exists failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec2189328894"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2189328894, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "CHECK_FUNCTION_EXISTS=isinf" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec2189328894.dir\Debug\\" /Fd"cmTryCompileExec2189328894.dir\Debug\vc90.pdb" /c /Zi /TC "..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.c"
+1>CheckFunctionExists.c
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol _isinf referenced in function _main
+1>C:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2189328894.exe : fatal error LNK1120: 1 unresolved externals
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec2189328894.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec2189328894 - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function isinf exists failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec4121307228"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4121307228, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "CHECK_FUNCTION_EXISTS=isinf" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec4121307228.dir\Debug\\" /Fd"cmTryCompileExec4121307228.dir\Debug\vc90.pdb" /c /Zi /TC "..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.c"
+1>CheckFunctionExists.c
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol _isinf referenced in function _main
+1>C:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4121307228.exe : fatal error LNK1120: 1 unresolved externals
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec4121307228.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec4121307228 - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec3902952275"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3902952275, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "CHECK_FUNCTION_EXISTS=gettimeofday" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec3902952275.dir\Debug\\" /Fd"cmTryCompileExec3902952275.dir\Debug\vc90.pdb" /c /Zi /TC "..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.c"
+1>CheckFunctionExists.c
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main
+1>C:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3902952275.exe : fatal error LNK1120: 1 unresolved externals
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec3902952275.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec3902952275 - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function qsort_r exists failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec2003307441"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2003307441, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "CHECK_FUNCTION_EXISTS=qsort_r" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec2003307441.dir\Debug\\" /Fd"cmTryCompileExec2003307441.dir\Debug\vc90.pdb" /c /Zi /TC "..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.c"
+1>CheckFunctionExists.c
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol _qsort_r referenced in function _main
+1>C:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2003307441.exe : fatal error LNK1120: 1 unresolved externals
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec2003307441.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec2003307441 - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the function copysign exists failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec123628124"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec123628124, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "CHECK_FUNCTION_EXISTS=copysign" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec123628124.dir\Debug\\" /Fd"cmTryCompileExec123628124.dir\Debug\vc90.pdb" /c /Zi /TC "..\..\..\..\..\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.c"
+1>CheckFunctionExists.c
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>CheckFunctionExists.obj : error LNK2019: unresolved external symbol _copysign referenced in function _main
+1>C:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec123628124.exe : fatal error LNK1120: 1 unresolved externals
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec123628124.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec123628124 - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of uint32_t failed with the following output:
+Change Dir: C:/Dev/HWang/2012VS2008/CMakeFiles/CMakeTmp
+
+Run Build Command:"c:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/VCExpress.exe" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTryCompileExec2460435010"
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2460435010, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec2460435010.dir\Debug\\" /Fd"cmTryCompileExec2460435010.dir\Debug\vc90.pdb" /c /Zi /TC ..\CheckTypeSize\UINT32_T.c
+1>UINT32_T.c
+1>..\CheckTypeSize\UINT32_T.c(18) : error C2065: 'uint32_t' : undeclared identifier
+1>..\CheckTypeSize\UINT32_T.c(19) : error C2065: 'uint32_t' : undeclared identifier
+1>..\CheckTypeSize\UINT32_T.c(20) : error C2065: 'uint32_t' : undeclared identifier
+1>..\CheckTypeSize\UINT32_T.c(21) : error C2065: 'uint32_t' : undeclared identifier
+1>..\CheckTypeSize\UINT32_T.c(22) : error C2065: 'uint32_t' : undeclared identifier
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\CMakeFiles\CMakeTmp\cmTryCompileExec2460435010.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec2460435010 - 5 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+C:/Dev/HWang/2012VS2008/CMakeFiles/CheckTypeSize/UINT32_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

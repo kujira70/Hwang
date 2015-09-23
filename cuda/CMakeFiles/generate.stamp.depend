@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Dev/HWang/2012/Code/cuda/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindCUDA.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Dev/HWang/2012VS2008/cuda/CMakeFiles/cuda.dir/cuda_generated_valueiteration.cu.obj.depend
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindCUDA/run_nvcc.cmake

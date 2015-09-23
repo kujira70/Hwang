@@ -1,0 +1,139 @@
+"リロード：:source $VIM/_vimrc
+set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin
+if has("gui_running")
+  set lines=50 columns=180
+  set guioptions-=m
+  set guioptions-=T
+  set guioptions-=R
+endif
+unmap <C-Y>
+imap <C-j> <esc>
+map <C-e> :silent !explorer %:p:h:gs?\/?\\\\\\?<CR>
+set wildmode=longest:full,list:full
+set whichwrap+=>,l
+set whichwrap+=<,h
+set number
+
+" vim起動時のみruntimepathにneobundle.vimを追加
+if has('vim_starting')
+  set nocompatible
+  set runtimepath+=~/.vim/bundle/neobundle.vim
+endif
+
+" neobundle.vimの初期化 
+" NeoBundleを更新するための設定
+call neobundle#begin(expand('~/.vim/bundle'))
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" 読み込むプラグインを記載
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'kana/vim-submode'
+
+" 読み込んだプラグインも含め、ファイルタイプの検出、ファイルタイプ別プラグイン/インデントを有効化する
+filetype plugin indent on
+
+" インストールのチェック
+NeoBundleCheck
+
+call neobundle#end()
+
+set t_Co=256
+syntax on
+colorscheme jellybeans
+
+" 自分は ,v でvimrcを開くようにしています。
+nmap ,v :edit $MYVIMRC<CR>
+" 項目名				デフォルト		オリジナル設定 http://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca
+" 水平分割				:split	ss
+" 垂直分割				:vsplit	sv
+" 左に移動				<C-w>h			sh
+" 下に移動				<C-w>j			sj
+" 上に移動				<C-w>k			sk
+" 右に移動				<C-w>l			sl
+" 次に移動				<C-w>w			sw
+" 左に移動				<C-w>H			sH
+" 下に移動				<C-w>J			sJ
+" 上に移動				<C-w>K			sK
+" 右に移動				<C-w>L			sL
+" 回転					<C-w>r			sr
+" 縦に最大化				<C-w>_			なし
+" 横に最大化				<C-w>パイプ		なし
+" 縦横最大化				なし			so
+" 大きさを揃える			<C-w>=			sO もしくは s=
+" 幅を増やす				<C-w>>			s>
+" 幅を減らす				<C-w><			s<
+" 高さを増やす				<C-w>+			s+
+" 高さを減らす				<C-w>-			s-
+" 新規タブ				:tabnew			st
+" 次のタブに切替			gt			sn
+" 前のタブに切替			gT			sp
+" ウィンドウを閉じる			:q			sq
+" バッファを閉じる			:bd			sQ
+" タブ一覧				:Unite tab		sT
+" 現在のタブで開いたバッファ一覧	:Unite buffer_tab	sb
+" バッファ一覧				:Unite buffer		sB
+nnoremap s <Nop>
+nnoremap sj <C-w>j
+nnoremap sk <C-w>k
+nnoremap sl <C-w>l
+nnoremap sh <C-w>h
+nnoremap sJ <C-w>J
+nnoremap sK <C-w>K
+nnoremap sL <C-w>L
+nnoremap sH <C-w>H
+nnoremap sn gt
+nnoremap sp gT
+nnoremap sr <C-w>r
+nnoremap s= <C-w>=
+nnoremap sw <C-w>w
+nnoremap so <C-w>_<C-w>|
+nnoremap sO <C-w>=
+nnoremap sN :<C-u>bn<CR>
+nnoremap sP :<C-u>bp<CR>
+nnoremap st :<C-u>tabnew<CR>
+nnoremap sT :<C-u>Unite tab<CR>
+nnoremap ss :<C-u>sp<CR>
+nnoremap sv :<C-u>vs<CR>
+nnoremap sq :<C-u>q<CR>
+nnoremap sQ :<C-u>bd<CR>
+nnoremap sb :<C-u>Unite buffer_tab -buffer-name=file<CR>
+nnoremap sB :<C-u>Unite buffer -buffer-name=file<CR>
+
+call submode#enter_with('bufmove', 'n', '', 's>', '<C-w>>')
+call submode#enter_with('bufmove', 'n', '', 's<', '<C-w><')
+call submode#enter_with('bufmove', 'n', '', 's+', '<C-w>+')
+call submode#enter_with('bufmove', 'n', '', 's-', '<C-w>-')
+call submode#map('bufmove', 'n', '', '>', '<C-w>>')
+call submode#map('bufmove', 'n', '', '<', '<C-w><')
+call submode#map('bufmove', 'n', '', '+', '<C-w>+')
+call submode#map('bufmove', 'n', '', '-', '<C-w>-')
+set diffexpr=MyDiff()
+function MyDiff()
+  let opt = '-a --binary '
+  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+  let arg1 = v:fname_in
+  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+  let arg2 = v:fname_new
+  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+  let arg3 = v:fname_out
+  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+  let eq = ''
+  if $VIMRUNTIME =~ ' '
+    if &sh =~ '\<cmd'
+      let cmd = '""' . $VIMRUNTIME . '\diff"'
+      let eq = '"'
+    else
+      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+    endif
+  else
+    let cmd = $VIMRUNTIME . '\diff'
+  endif
+  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
+endfunction
+

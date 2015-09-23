@@ -1,0 +1,69 @@
+1>------ Build started: Project: action, Configuration: Debug Win32 ------
+1>Compiling...
+1>actions.cpp
+1>c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+1>c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(230) : error C2039: 'YOU_PASSED_A_COLUMN_VECTOR_BUT_A_ROW_VECTOR_WAS_EXPECTED' : 'Eigen::internal::static_assertion<condition>' のメンバではありません。
+1>        with
+1>        [
+1>            condition=false
+1>        ]
+1>        c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(449) : コンパイルされたクラスの テンプレート のインスタンス化 'Eigen::Replicate<MatrixType,RowFactor,ColFactor> Eigen::VectorwiseOp<ExpressionType,Direction>::extendedTo<Derived>(const Eigen::DenseBase<Derived> &) const' の参照を確認してください
+1>        with
+1>        [
+1>            MatrixType=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>,
+1>            RowFactor=-1,
+1>            ColFactor=1,
+1>            ExpressionType=Eigen::Block<Eigen::Matrix<double,-1,-1>,-1,-1,false>,
+1>            Direction=1,
+1>            Derived=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>
+1>        ]
+1>        ..\..\2012\Code\action\actions.cpp(121) : コンパイルされたクラスの テンプレート のインスタンス化 'ExpressionType &Eigen::VectorwiseOp<ExpressionType,Direction>::operator +=<Derived>(const Eigen::DenseBase<Derived> &)' の参照を確認してください
+1>        with
+1>        [
+1>            ExpressionType=Eigen::Block<Eigen::Matrix<double,-1,-1>,-1,-1,false>,
+1>            Direction=1,
+1>            Derived=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>
+1>        ]
+1>c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(230) : error C2065: 'YOU_PASSED_A_COLUMN_VECTOR_BUT_A_ROW_VECTOR_WAS_EXPECTED' : 定義されていない識別子です。
+1>weightsinv.cpp
+1>c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+1>c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(230) : error C2039: 'YOU_PASSED_A_COLUMN_VECTOR_BUT_A_ROW_VECTOR_WAS_EXPECTED' : 'Eigen::internal::static_assertion<condition>' のメンバではありません。
+1>        with
+1>        [
+1>            condition=false
+1>        ]
+1>        c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(449) : コンパイルされたクラスの テンプレート のインスタンス化 'Eigen::Replicate<MatrixType,RowFactor,ColFactor> Eigen::VectorwiseOp<ExpressionType,Direction>::extendedTo<Derived>(const Eigen::DenseBase<Derived> &) const' の参照を確認してください
+1>        with
+1>        [
+1>            MatrixType=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>,
+1>            RowFactor=-1,
+1>            ColFactor=1,
+1>            ExpressionType=Eigen::Matrix<double,-1,-1>,
+1>            Direction=1,
+1>            Derived=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>
+1>        ]
+1>        ..\..\2012\Code\action\weightsinv.cpp(48) : コンパイルされたクラスの テンプレート のインスタンス化 'ExpressionType &Eigen::VectorwiseOp<ExpressionType,Direction>::operator +=<Derived>(const Eigen::DenseBase<Derived> &)' の参照を確認してください
+1>        with
+1>        [
+1>            ExpressionType=Eigen::Matrix<double,-1,-1>,
+1>            Direction=1,
+1>            Derived=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>
+1>        ]
+1>c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(230) : error C2065: 'YOU_PASSED_A_COLUMN_VECTOR_BUT_A_ROW_VECTOR_WAS_EXPECTED' : 定義されていない識別子です。
+1>コードを生成中...
+1>Build log was saved at "file://c:\Dev\HWang\2012VS2008\action\action.dir\Debug\BuildLog.htm"
+1>action - 4 error(s), 2 warning(s)
+2>------ Build started: Project: training, Configuration: Debug Win32 ------
+3>------ Build started: Project: frontend, Configuration: Debug Win32 ------
+2>Linking...
+3>Linking...
+2>LINK : fatal error LNK1181: 入力ファイル 'action\Debug\action.lib' を開けません。
+3>LINK : fatal error LNK1181: 入力ファイル 'action\Debug\action.lib' を開けません。
+3>Build log was saved at "file://c:\Dev\HWang\2012VS2008\frontend.dir\Debug\BuildLog.htm"
+3>frontend - 1 error(s), 0 warning(s)
+2>Build log was saved at "file://c:\Dev\HWang\2012VS2008\training.dir\Debug\BuildLog.htm"
+2>training - 1 error(s), 0 warning(s)
+4>------ Skipped Build: Project: ALL_BUILD, Configuration: Debug Win32 ------
+4>Project not selected to build for this solution configuration 
+========== Build: 0 succeeded, 3 failed, 24 up-to-date, 1 skipped ==========
+

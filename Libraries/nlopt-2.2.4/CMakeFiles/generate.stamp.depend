@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Dev/HWang/2012/Libraries/nlopt-2.2.4/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CheckIncludeFileCXX.cmake
+C:/Dev/HWang/2012/Code/cmake/FindF2C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Dev/HWang/2012/Libraries/nlopt-2.2.4/config.cmake.h.in

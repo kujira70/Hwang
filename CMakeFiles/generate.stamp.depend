@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+C:/Dev/HWang/2012/Code/CMakeLists.txt
+C:/Dev/HWang/2012VS2008/CMakeFiles/3.2.3/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Dev/HWang/2012VS2008/CMakeFiles/3.2.3/CMakeCCompiler.cmake
+C:/Dev/HWang/2012VS2008/CMakeFiles/3.2.3/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC.cmake
+C:/Dev/HWang/2012VS2008/CMakeFiles/3.2.3/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindCUDA.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindCUDA.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindQt4.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CheckCXXSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/MacroAddFileDependencies.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakePushCheckState.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Qt4ConfigDependentSettings.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Qt4Macros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindOpenGL.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Dev/HWang/2012/Code/cmake/FindEigen3.cmake
+C:/Dev/HWang/2012/Code/cmake/FindF2C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindBoost.cmake
+C:/Dev/HWang/2012/Code/cmake/FindGLEW.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/UseQt4.cmake

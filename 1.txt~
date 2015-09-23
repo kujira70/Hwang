@@ -1,0 +1,250 @@
+1>------ ビルド開始: プロジェクト: application, 構成: Debug Win32 ------
+1>コンパイルしています...
+1>scriptparser.cpp
+2>------ ビルド開始: プロジェクト: gui, 構成: Debug Win32 ------
+2>Generating latentview.moc
+1>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+2>Generating moc_topview.cxx
+2>C:/Dev/HWang/2012/Code/gui/topview.h(0): Note: No relevant classes found. No output generated.
+2>Generating moc_camerarecorder.cxx
+2>C:/Dev/HWang/2012/Code/gui/camerarecorder.h(0): Note: No relevant classes found. No output generated.
+2>Generating moc_inputrecorder.cxx
+2>C:/Dev/HWang/2012/Code/gui/inputrecorder.h(0): Note: No relevant classes found. No output generated.
+2>Generating moc_toolbar.cxx
+2>Generating moc_depthrendertarget.cxx
+2>C:/Dev/HWang/2012/Code/gui/depthrendertarget.h(0): Note: No relevant classes found. No output generated.
+2>Generating moc_shape.cxx
+2>C:/Dev/HWang/2012/Code/gui/shape.h(0): Note: No relevant classes found. No output generated.
+2>Generating moc_animation.cxx
+2>Generating moc_latentview.cxx
+2>Generating moc_skeletonview.cxx
+2>コンパイルしています...
+2>skeletonview.cpp
+2>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+1>ライブラリを作成しています...
+1>ビルドログは "file://c:\Dev\HWang\2012VS2008\application\application.dir\Debug\BuildLog.htm" に保存されました。
+1>application - エラー 0、警告 1
+3>------ ビルド開始: プロジェクト: cuda, 構成: Debug Win32 ------
+3>Building NVCC (Device) object cuda/CMakeFiles/cuda.dir/Debug/cuda_generated_valueiteration.cu.obj
+3>valueiteration.cu
+3>C:/Dev/HWang/2012/Code/cuda/valueiteration.cu(4) : fatal error C1083: include ファイルを開けません。'cutil_inline.h': No such file or directory
+3>CMake Error at cuda_generated_valueiteration.cu.obj.cmake:206 (message):
+3>  Error generating
+3>  C:/Dev/HWang/2012VS2008/cuda/CMakeFiles/cuda.dir//Debug/cuda_generated_valueiteration.cu.obj
+3>Project : error PRJ0019: ツールはエラー コードを返しました : "Building NVCC (Device) object cuda/CMakeFiles/cuda.dir/Debug/cuda_generated_valueiteration.cu.obj"
+3>ビルドログは "file://c:\Dev\HWang\2012VS2008\cuda\cuda.dir\Debug\BuildLog.htm" に保存されました。
+3>cuda - エラー 2、警告 0
+2>c:\dev\hwang\2012\code\gui\depthrendertarget.h(9) : fatal error C1083: include ファイルを開けません。'GL/glew.h': No such file or directory
+2>moc_topview.cxx
+2>moc_camerarecorder.cxx
+2>moc_inputrecorder.cxx
+2>moc_toolbar.cxx
+2>moc_depthrendertarget.cxx
+2>moc_shape.cxx
+2>moc_animation.cxx
+2>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+2>moc_latentview.cxx
+2>moc_skeletonview.cxx
+2>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+2>c:\dev\hwang\2012\code\gui\depthrendertarget.h(9) : fatal error C1083: include ファイルを開けません。'GL/glew.h': No such file or directory
+2>topview.cpp
+2>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+2>c:\dev\hwang\2012\code\gui\depthrendertarget.h(9) : fatal error C1083: include ファイルを開けません。'GL/glew.h': No such file or directory
+2>camerarecorder.cpp
+2>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+2>..\..\2012\Code\gui\camerarecorder.cpp(24) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : 'fopen' の宣言を確認してください。
+2>..\..\2012\Code\gui\camerarecorder.cpp(42) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : 'fopen' の宣言を確認してください。
+2>..\..\2012\Code\gui\camerarecorder.cpp(51) : warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(256) : 'fscanf' の宣言を確認してください。
+2>inputrecorder.cpp
+2>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+2>..\..\2012\Code\gui\inputrecorder.cpp(28) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : 'fopen' の宣言を確認してください。
+2>..\..\2012\Code\gui\inputrecorder.cpp(46) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : 'fopen' の宣言を確認してください。
+2>..\..\2012\Code\gui\inputrecorder.cpp(57) : warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(256) : 'fscanf' の宣言を確認してください。
+2>depthrendertarget.cpp
+2>c:\dev\hwang\2012\code\gui\depthrendertarget.h(9) : fatal error C1083: include ファイルを開けません。'GL/glew.h': No such file or directory
+2>shape.cpp
+2>..\..\2012\Code\gui\shape.cpp(158) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : 'fopen' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(189) : warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string.h(166) : 'strtok' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(203) : warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string.h(166) : 'strtok' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(205) : warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(324) : 'sscanf' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(210) : warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string.h(166) : 'strtok' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(213) : warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(324) : 'sscanf' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(218) : warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string.h(166) : 'strtok' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(220) : warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(324) : 'sscanf' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(257) : warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string.h(166) : 'strtok' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(259) : warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(324) : 'sscanf' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(270) : warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(324) : 'sscanf' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(281) : warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(324) : 'sscanf' の宣言を確認してください。
+2>..\..\2012\Code\gui\shape.cpp(293) : warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(324) : 'sscanf' の宣言を確認してください。
+2>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\vector(1177) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+2>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\vector(1153): クラス テンプレート のメンバ関数 'void std::vector<_Ty>::_Insert_n(std::_Vector_const_iterator<_Ty,_Alloc>,unsigned int,const _Ty &)' のコンパイル中
+2>        with
+2>        [
+2>            _Ty=unsigned int,
+2>            _Alloc=std::allocator<unsigned int>
+2>        ]
+2>        c:\dev\hwang\2012\code\gui\shape.h(26) : コンパイルされたクラスの テンプレート のインスタンス化 'std::vector<_Ty>' の参照を確認してください
+2>        with
+2>        [
+2>            _Ty=unsigned int
+2>        ]
+2>view3d.cpp
+2>animation.cpp
+2>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+2>toolbar.cpp
+2>latentview.cpp
+2>..\..\2012\Code\gui\latentview.cpp(75) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(75) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(75) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(93) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(93) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(93) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(112) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(112) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(112) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(236) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(236) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(260) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>..\..\2012\Code\gui\latentview.cpp(260) : warning C4305: '引数' : 'double' から 'GLfloat' へ切り詰めます。
+2>コードを生成中...
+2>ビルドログは "file://c:\Dev\HWang\2012VS2008\gui\gui.dir\Debug\BuildLog.htm" に保存されました。
+2>gui - エラー 4、警告 40
+4>------ ビルド開始: プロジェクト: latentprior, 構成: Debug Win32 ------
+4>コンパイルしています...
+4>connectivity.cpp
+4>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+4>latentprior.cpp
+4>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+4>コードを生成中...
+4>ライブラリを作成しています...
+4>ビルドログは "file://c:\Dev\HWang\2012VS2008\latentprior\latentprior.dir\Debug\BuildLog.htm" に保存されました。
+4>latentprior - エラー 0、警告 2
+5>------ ビルド開始: プロジェクト: action, 構成: Debug Win32 ------
+5>コンパイルしています...
+5>actions.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(230) : error C2039: 'YOU_PASSED_A_COLUMN_VECTOR_BUT_A_ROW_VECTOR_WAS_EXPECTED' : 'Eigen::internal::static_assertion<condition>' のメンバではありません。
+5>        with
+5>        [
+5>            condition=false
+5>        ]
+5>        c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(449) : コンパイルされたクラスの テンプレート のインスタンス化 'Eigen::Replicate<MatrixType,RowFactor,ColFactor> Eigen::VectorwiseOp<ExpressionType,Direction>::extendedTo<Derived>(const Eigen::DenseBase<Derived> &) const' の参照を確認してください
+5>        with
+5>        [
+5>            MatrixType=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>,
+5>            RowFactor=-1,
+5>            ColFactor=1,
+5>            ExpressionType=Eigen::Block<Eigen::Matrix<double,-1,-1>,-1,-1,false>,
+5>            Direction=1,
+5>            Derived=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>
+5>        ]
+5>        ..\..\2012\Code\action\actions.cpp(121) : コンパイルされたクラスの テンプレート のインスタンス化 'ExpressionType &Eigen::VectorwiseOp<ExpressionType,Direction>::operator +=<Derived>(const Eigen::DenseBase<Derived> &)' の参照を確認してください
+5>        with
+5>        [
+5>            ExpressionType=Eigen::Block<Eigen::Matrix<double,-1,-1>,-1,-1,false>,
+5>            Direction=1,
+5>            Derived=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>
+5>        ]
+5>c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(230) : error C2065: 'YOU_PASSED_A_COLUMN_VECTOR_BUT_A_ROW_VECTOR_WAS_EXPECTED' : 定義されていない識別子です。
+5>weightsinv.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(230) : error C2039: 'YOU_PASSED_A_COLUMN_VECTOR_BUT_A_ROW_VECTOR_WAS_EXPECTED' : 'Eigen::internal::static_assertion<condition>' のメンバではありません。
+5>        with
+5>        [
+5>            condition=false
+5>        ]
+5>        c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(449) : コンパイルされたクラスの テンプレート のインスタンス化 'Eigen::Replicate<MatrixType,RowFactor,ColFactor> Eigen::VectorwiseOp<ExpressionType,Direction>::extendedTo<Derived>(const Eigen::DenseBase<Derived> &) const' の参照を確認してください
+5>        with
+5>        [
+5>            MatrixType=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>,
+5>            RowFactor=-1,
+5>            ColFactor=1,
+5>            ExpressionType=Eigen::Matrix<double,-1,-1>,
+5>            Direction=1,
+5>            Derived=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>
+5>        ]
+5>        ..\..\2012\Code\action\weightsinv.cpp(48) : コンパイルされたクラスの テンプレート のインスタンス化 'ExpressionType &Eigen::VectorwiseOp<ExpressionType,Direction>::operator +=<Derived>(const Eigen::DenseBase<Derived> &)' の参照を確認してください
+5>        with
+5>        [
+5>            ExpressionType=Eigen::Matrix<double,-1,-1>,
+5>            Direction=1,
+5>            Derived=Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>,Eigen::Matrix<double,-1,1>>
+5>        ]
+5>c:\dev\eigen325\eigen\src/Core/VectorwiseOp.h(230) : error C2065: 'YOU_PASSED_A_COLUMN_VECTOR_BUT_A_ROW_VECTOR_WAS_EXPECTED' : 定義されていない識別子です。
+5>weightsgauss.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>weights.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>neighborsstd.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>neighbors.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>actionsjump.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>actionsflowrepulseperp.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>actionsgpflow.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>actionsgpattract.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>actionsgpcart.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>actionsflow.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>actionsattract.cpp
+5>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+5>コードを生成中...
+5>ビルドログは "file://c:\Dev\HWang\2012VS2008\action\action.dir\Debug\BuildLog.htm" に保存されました。
+5>action - エラー 4、警告 13
+6>------ ビルド開始: プロジェクト: gpcm, 構成: Debug Win32 ------
+6>コンパイルしています...
+6>model.cpp
+6>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+6>backprojection.cpp
+6>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+6>velocityterm.cpp
+6>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+6>rankprior.cpp
+6>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+6>コードを生成中...
+6>ライブラリを作成しています...
+6>ビルドログは "file://c:\Dev\HWang\2012VS2008\gpcm\gpcm.dir\Debug\BuildLog.htm" に保存されました。
+6>gpcm - エラー 0、警告 4
+7>------ ビルド開始: プロジェクト: frontend, 構成: Debug Win32 ------
+8>------ ビルド開始: プロジェクト: training, 構成: Debug Win32 ------
+7>コンパイルしています...
+8>コンパイルしています...
+8>application.cpp
+7>gui.cpp
+7>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+8>C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\xlocale(342) : warning C4530: C++ 例外処理を使っていますが、アンワインド セマンティクスは有効にはなりません。/EHsc を指定してください。
+7>c:\dev\hwang\2012\code\gui\depthrendertarget.h(9) : fatal error C1083: include ファイルを開けません。'GL/glew.h': No such file or directory
+7>ビルドログは "file://c:\Dev\HWang\2012VS2008\frontend.dir\Debug\BuildLog.htm" に保存されました。
+7>frontend - エラー 1、警告 1
+8>リンクしています...
+8>LINK : fatal error LNK1181: 入力ファイル 'cuda\Debug\cuda.lib' を開けません。
+8>ビルドログは "file://c:\Dev\HWang\2012VS2008\training.dir\Debug\BuildLog.htm" に保存されました。
+8>training - エラー 1、警告 1
+9>------ ビルドのスキップ: プロジェクト: ALL_BUILD, 構成: Debug Win32 ------
+9>プロジェクトはこのソリューション構成に対してビルドするように選択されていません。 
+========== ビルド: 3 正常終了、5 失敗、19 更新不要、1 スキップ ==========
+
